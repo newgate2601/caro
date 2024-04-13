@@ -8,6 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class SynthesisDTO {
+    private Long id;
     private String userName;
     private Integer winCount;
     private Integer lostCount;

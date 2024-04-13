@@ -81,6 +81,7 @@ public class MainGUI extends JFrame {
 		Object[] x = {difficulty, computerStarts};
 		return x;
 	}
+
 	public void listenGameStartButton(ActionListener listener) {
 		buttonStart.addActionListener(listener);
 	}
